@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <!-- Meta -->
+        <meta charset="UTF-8" />
+        <title>Weather App</title>
+    
+        
+        <!-- Styles -->
+        <link href="styles/normalize.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/index.css">
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+        
+        <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                
+                <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="learn to code javascript at freeCodeCamp logo" class="img-responsive nav-logo" vspace="20">
+                
+                <h1 class="text-center">Dave's Weather App</h1>
+                
+                <div class="col-xs-10 col-xs-offset-1 centered" id="weather-view">
+                    <div class="weather-app">
+                    <div class="left">
+                        <div class="temperature"><span id="temperature">0</span>&deg;<span id="unit">F</span></div>
+                        <div class="location"><span id="location">Unknown</span></div>
+                        <div class="desc"><span id="description">Unknown</span></div>
+                        <div class="button">
+                            <button class="btn btn-sm btn-primary" id="convert">Use Celsius</button>
+                                 
+                        </div><!-- Switch button -->
+                       
+                
+                    </div><!-- left -->
+                    <div class = "right">
+                        <div class="top">
+                            <img id="icon" width="75px">
+                        </div><!-- right -->
+                        
+                        <div class="bottom">
+                            <div class="humidity">
+                               <p>Humidity: <span id="humidity">0</span>%</p>
+                            </div><!-- humidity -->
+                            
+                            <div class="wind">
+                                <span id="wind">0</span><span id="windUnit">mph</span> <span id="direction">N</span>
+                            </div><!-- wind -->
+                            
+                        </div><!-- bottom -->
+                    </div><!-- right -->
+                        </div><!-- weather app -->
+                    
+                    <div class = "col-xs-6 col-xs-offset-3 form">
+					<!--<form id="cityForm"> -->
+						<div class="input-group">
+							<label for="city">Enter City:</label>
+							<input id="city" type="text" class="form-control">
+                            <span class="input-group-btn">
+                            <button type="submit" id="submit" class="btn btn-primary btn-lg">Submit</button>
+                                </span>
+						</div>
+						
+						
+					<!--</form> -->
+				</div><!-- form -->
+                
+                
+                </div><!-- weather-view -->
+				
+				
+            
+            </div><!-- row -->
+            
+            
+        
+        </div><!-- container -->
+        <footer>
+             
+			 <p class="text-center">Built by <span class="foot-text"><a href="http://dd-tech.co.nz">David Dumolo</a></span></p>
+        </footer>
+        
+        
+        <!-- Scripts -->
+        <script src="scripts/index.js"></script>
+  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+    
+    </body>
+
+</html>
