@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Wikipedia Viewer</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://use.fontawesome.com/a2c82d3569.js"></script>
+
+ </head>
+ 
+ <body>
+	<main class="container">
+        <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="learn to code javascript at freeCodeCamp logo" class="img-responsive nav-logo" vspace="20">
+        <h1>Dave's Wikipedia Search Tool</h1>
+		<header class="formSection">
+			
+            
+			<form class="searchForm">
+				<input type="search" class="searchForm-input">
+				<button type="submit" class="submit">
+					<i class="fa fa-search fa-2x" aria-hidden="true"></i>
+				</button>
+				<button type="submit" id="random">
+					
+					<i class="fa fa-random fa-2x" aria-hidden="true"></i>
+				
+				</button>
+                 
+                
+			</form><!-- searchForm -->
+            <form class="pageRes">
+                 <label>
+                   Results per page:
+                    <select id="resultsPage">
+                        <option disabled selected value="0">-- Choose an option --</option>
+                        <option value="1">1 result per page</option>
+                        <option value="5">5 results per page</option>
+                        <option value="10">10 results per page</option>
+                        <option value="20">20 results per page</option>
+                        <option value="50">50 results per page</option>
+                    </select>
+                </label>
+            </form><!-- pageRes -->
+		</header>
+        
+        <section class="searchResults"></section>
+	</main><!-- container -->
+     <script type="text/javascript" src="./scripts/script.js"></script>
+</body>
