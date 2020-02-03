@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <!-- Meta -->
+        <meta charset="UTF-8" />
+        <title>Twitch TV</title>
+    
+    <!-- Styles -->
+<!--        <link href="styles/normalize.css" rel="stylesheet">-->
+        <link rel="stylesheet" href="styles/index.css">
+        <link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+        
+
+    
+    <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    
+
+</head>
+
+<body>
+    
+<div class="container">
+    <img src="https://s3.amazonaws.com/freecodecamp/freecodecamp_logo.svg" alt="learn to code javascript at freeCodeCamp logo" class="img-responsive nav-logo" vspace="20">
+    
+    <div id="header" class="text-center">
+        <h1 class="text-center">Dave's Twitch TV Channel View</h1>
+       
+           
+    </div><!-- header -->
+    
+        
+       <div class="col-sm-10 col-sm-offset-1 centered" id="dispArea">
+           <div class="row">
+        <h3>
+        <div class="col-sm-3 heading">
+            <div class="centering unit">
+            Logo:
+            </div>
+        </div><!-- column -->
+        
+        <div class="col-sm-3 heading">
+            <div class="centering unit">
+            Display Name:
+            </div>
+           
+        </div><!-- column -->
+            
+        <div class="col-sm-3 heading">
+            <div class="centering unit">
+            Content:
+            </div>
+        </div><!-- column -->
+        
+        <div class="col-sm-3 heading">
+            <div class="centering">
+               
+            <form class="inline">
+                 <label>
+                  Status:
+                    <select id="results">
+                       
+                        <option id="all" value="A" selected>show all</option>
+                        <option value="L">show live</option>
+                        <option value="O">show offline</option>
+                    </select>
+                </label>
+            </form><!-- pageRes -->
+           
+            </div>
+            
+        </div><!-- column -->
+        </h3>
+    </div><!-- row -->
+           
+           <div id="followerInfo">
+    
+    </div><!-- followerInfo -->
+    
+        </div><!-- DispArea -->
+   
+    
+    
+
+</div><!-- container -->
+    
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Scripts -->
+        <script src="js/index.js"></script>
+  
+  
+    
+</body>
+    
+</html>

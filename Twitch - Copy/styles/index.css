@@ -1,0 +1,124 @@
+
+body {
+    background-color: #006401 !important;
+}
+
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+#header {
+    position: relative;
+    color: white;
+}
+
+.row {
+    color: white;
+    
+}
+
+.col-sm-3 {
+    background-color: rgba(70, 78, 79, 0.7);
+    
+}
+
+.row-height {
+    height: 70px;
+    text-align: center;
+    padding-top: 25px;
+    vertical-align: middle;
+}
+
+
+.row {
+    padding: 5px;
+    
+}
+
+
+
+
+h1 {
+    border-bottom: 1px solid black;
+    font-family: 'Della Respira', serif !important;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+#dispArea {
+    background-color: #0A090E; 
+    background-size: contain;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 75px 10px #888888;
+    background-image: url("https://7ektng-bn1305.files.1drv.com/y4mYLTM9wVWtsdmK2GtHGY_Cz2fn5coSn5IaIicB3Cmg3_GjwNQSpe3-bBtvhgB0sBVA217vWeEMCXZ9S3dNm7wf7ZKyBOx2WSB-Sa0PCsVQZyCCyK8w7igEB2YI_RjClgsjTP70nei2QrZON8zzIrGoHSJTob6gr4xXkyjPZ8JkmDUKIhnxT4LqSpnkKvnbpQs6TxLSpW-TrYeHQ4XTH6osg?width=800&height=447&cropmode=none");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+#followerInfo img {
+    display: inline-block;
+    margin-top: -20px;
+    height: 60px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+
+#logo > span {
+    font-size: 1.8em;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.heading {
+     background-color: rgba(44, 18, 122, 0);
+}
+
+.centering{
+    position: relative;
+    border: 2px solid white;
+    text-align: center;
+    display:block;
+    width: 100%;
+}
+
+.unit {
+    padding: 18px 0;
+}
+
+#dispArea h3 {
+    color: #FD5F00;
+}
+
+#followerInfo a {
+    color: yellow;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Chewy', cursive;
+    
+}
+
+
+#followerInfo a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#results {
+    background-color: black;
+    color: yellow;
+
+} 
+
+.game {
+    color: white;
+    text-transform: uppercase;
+}

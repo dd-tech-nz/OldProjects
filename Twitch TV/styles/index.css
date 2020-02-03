@@ -1,0 +1,49 @@
+body {
+    background-color: #006401 !important;
+}
+
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+#header {
+    position: relative;
+    color: white;
+}
+
+.row {
+    color: white;
+    
+}
+
+.col-md-4 {
+    background-color: rgba(70, 78, 79, 0.5);
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    font-family: 'Della Respira', serif !important;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+#dispArea {
+    background-color: #08070C  !important;
+    background-size: contain;
+    height: 750px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 75px 10px #888888;
+    background-image: url("https://7ektng-bn1305.files.1drv.com/y4mYLTM9wVWtsdmK2GtHGY_Cz2fn5coSn5IaIicB3Cmg3_GjwNQSpe3-bBtvhgB0sBVA217vWeEMCXZ9S3dNm7wf7ZKyBOx2WSB-Sa0PCsVQZyCCyK8w7igEB2YI_RjClgsjTP70nei2QrZON8zzIrGoHSJTob6gr4xXkyjPZ8JkmDUKIhnxT4LqSpnkKvnbpQs6TxLSpW-TrYeHQ4XTH6osg?width=800&height=447&cropmode=none");
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+    
+    
+}
